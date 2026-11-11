@@ -1,0 +1,36 @@
+Blender Skills for Claude Code
+https://github.com/ayoubsaif/blender-skills
+
+This project is a fork of:
+
+  blender-skills by kevinbadi
+  https://github.com/kevinbadi/blender-skills
+  (forked from commit b2f0f81, 4 April 2026)
+
+ORIGINAL TO THIS FORK — MIT License, Copyright (c) 2026 Ayoub Saif (see LICENSE)
+
+  bin/
+  lib/
+  scripts/sync-shared.mjs
+  shared/meshy.mjs, and its copies at skills/*/scripts/meshy.mjs
+  test/
+  package.json, .gitattributes, .gitignore
+
+DERIVED FROM UPSTREAM — not covered by the MIT License above
+
+  skills/*/SKILL.md
+  skills/*/common.md and shared/camera-common.md
+  skills/polyhaven-*/scripts/*.js
+  skills/product-polish/scripts/blender-product-polish.js
+  skills/threejs-export/scripts/blender-threejs-export.js
+  README.md (structure and skill descriptions)
+
+These files are based on the upstream project and keep the upstream author's
+rights. When this fork was made the upstream repository had no license file.
+The changes made in this fork are listed under "Changes from upstream" in
+README.md and in the git history.
+
+If the upstream author adds a license, these files follow it, and this NOTICE
+will be updated. If you are the upstream author and want something changed or
+removed, please open an issue at
+https://github.com/ayoubsaif/blender-skills/issues.

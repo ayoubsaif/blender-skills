@@ -141,9 +141,16 @@ npm publish
 
 ## License
 
-The upstream repository has **no license file**, which means its author keeps
-all rights. Until the author adds an open-source license or gives written
-permission, this fork stays `UNLICENSED`. Don't publish it to npm before that's
-settled. The new code here (installer, Meshy helper, tests) is by Ayoub Saif.
+Two parts. [NOTICE](NOTICE) lists exactly which files fall under each.
 
-Original skills by [kevinbadi](https://github.com/kevinbadi).
+- **Code original to this fork** (the installer, the Meshy helper, the sync
+  script and the tests) is under the [MIT License](LICENSE), © 2026 Ayoub Saif.
+- **The skills themselves** are adapted from
+  [kevinbadi/blender-skills](https://github.com/kevinbadi/blender-skills) and are
+  not covered by the MIT License. The upstream repository has no license file,
+  so its author keeps the rights to that work. If the author adds a license,
+  those files follow it.
+
+Original skills by [kevinbadi](https://github.com/kevinbadi). If you're the author
+and want anything changed, please
+[open an issue](https://github.com/ayoubsaif/blender-skills/issues).
