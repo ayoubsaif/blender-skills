@@ -1,0 +1,47 @@
+{
+  "name": "@ayoubsaif/blender-skills",
+  "version": "1.0.0",
+  "description": "Blender skills for Claude Code: camera moves, PolyHaven studio and textures, Meshy image-to-3D, product polish and Three.js export. Install with npx.",
+  "type": "module",
+  "bin": {
+    "blender-skills": "bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "skills/",
+    "README.md"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync-shared.mjs",
+    "test": "node scripts/sync-shared.mjs --check && node --test",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "blender",
+    "blender-mcp",
+    "3d",
+    "polyhaven",
+    "meshy",
+    "turntable"
+  ],
+  "author": "Ayoub Saif",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubsaif/blender-skills.git"
+  },
+  "homepage": "https://github.com/ayoubsaif/blender-skills#readme",
+  "bugs": {
+    "url": "https://github.com/ayoubsaif/blender-skills/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
